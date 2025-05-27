@@ -1,0 +1,22 @@
+name: Lint Code with Prettier
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run ESLint
+        uses: creyD/prettier_action@v4.2
+        with:
+          prettier_options: '--write'
