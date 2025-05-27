@@ -1,0 +1,10 @@
+### Deploy Instructions
+
+1. Push this repo to GitHub
+2. Import it to [Vercel](https://vercel.com)
+3. Add your domain `bitflow.tech` under project settings
+4. Done! HTTPS and CDN optimized
+
+---
+
+Crafted by [bitflow.tech] — modern, minimal, powerful.
